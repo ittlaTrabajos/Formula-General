@@ -21,7 +21,7 @@ public class FormulaGeneral {
 		r4=r3/(2*a);
 		System.out.println("el resultado es "+r4);
 		
-		p1= Math.pow(b, 2)+4*a*c;
+		p1= Math.pow(b, 2)-4*a*c;
 		p2= Math.sqrt(p1);
 		p3=(-b)+p2;
 		p4=p3/(2*a);
@@ -30,7 +30,7 @@ public class FormulaGeneral {
 		x=(-b-Math.sqrt(Math.pow(b, 2)-4*a*c))/(2*a);
 		System.out.println("El resultado es "+x );
 		
-		x1=(-b+Math.sqrt(Math.pow(b, 2)+4*a*c))/(2*a);
+		x1=(-b+Math.sqrt(Math.pow(b, 2)-4*a*c))/(2*a);
 		System.out.println("El resultado es "+x1 );
 	}
 
